@@ -102,10 +102,10 @@ class PlayList extends Component {
   render() {
     const {newTrack, songInput} = this.state
 
-    const track = newTrack.filter(each =>
-      each.name.toLowerCase().includes(songInput),
+    const trackList = newTrack.filter(each =>
+      each.name.toLowerCase().includes(songInput.toLowerCase()),
     )
-    console.log(track)
+    console.log(trackList)
 
     return (
       <div className="app-container">
@@ -126,13 +126,13 @@ class PlayList extends Component {
               value={songInput}
             />
           </div>
-          {track.length === 0 ? (
+          {trackList.length === 0 ? (
             <div className="not-found-container">
               <p className="not-found-heading">No Songs Found</p>
             </div>
           ) : (
             <ul className="unordered-list-container">
-              {track.map(eachTrack => (
+              {trackList.map(eachTrack => (
                 <li key={eachTrack.id} className="list-items">
                   <div className="genre-container">
                     <img
