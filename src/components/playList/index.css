@@ -1,0 +1,146 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  background-color: #152850;
+}
+
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.bottom-container {
+  min-height: 100vh;
+  background-size: cover;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.top-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.top-paragraph {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.bottom-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin-right: 25px;
+}
+
+.unordered-list-container {
+  padding-left: 0px;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  background-color: transparent;
+  color: #cbd5e1;
+  outline: none;
+}
+
+.genre-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.song-name {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.genre-name {
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #3b82f6;
+}
+
+.duration {
+  font-family: 'roboto';
+  font-weight: 300;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.delete-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-left: 30px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.not-found-heading {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+}
